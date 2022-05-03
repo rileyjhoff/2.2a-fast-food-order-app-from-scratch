@@ -7,6 +7,7 @@ export default function OrderForm({
   setSideId,
   setDrinkId,
   handleSubmit,
+  instructionInput,
   setInstructionInput,
 }) {
   return (

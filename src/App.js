@@ -32,6 +32,7 @@ function App() {
         setSideId={setSideId}
         setDrinkId={setDrinkId}
         handleSubmit={handleSubmit}
+        instructionInput={instructionInput}
         setInstructionInput={setInstructionInput}
       />
     </div>
