@@ -9,5 +9,11 @@ export default function OrderForm({
   handleSubmit,
   setInstructionInput,
 }) {
-  return <div className="order-form">{/* <Dropdown dropdown='' /> */}</div>;
+  return (
+    <div className="order-form">
+      <Dropdown dropdown="food" setId={setFoodId} />
+      <Dropdown dropdown="side" setId={setSideId} />
+      <Dropdown dropdown="drink" setId={setDrinkId} />
+    </div>
+  );
 }
