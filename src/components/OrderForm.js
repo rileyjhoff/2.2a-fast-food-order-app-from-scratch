@@ -1,5 +1,7 @@
 import React from 'react';
 import Dropdown from './Dropdown';
+import OrderNameInput from './OrderNameInput';
+import InstructionForm from './InstructionForm';
 
 export default function OrderForm({
   setOrderName,
@@ -15,6 +17,12 @@ export default function OrderForm({
       <Dropdown dropdown="food" setId={setFoodId} />
       <Dropdown dropdown="side" setId={setSideId} />
       <Dropdown dropdown="drink" setId={setDrinkId} />
+      <OrderNameInput setOrderName={setOrderName} />
+      <InstructionForm
+        handleSubmit={handleSubmit}
+        instructionInput={instructionInput}
+        setInstructionInput={setInstructionInput}
+      />
     </div>
   );
 }

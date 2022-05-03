@@ -71,4 +71,4 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 - OrderForm({ setOrderName, setFoodId, setSideId, setDrinkId, handleSubmit, setInstructionInput })
   - Dropdown({ dropdown, setId })
   - OrderNameInput({ setOrderName })
-  - InstructionsForm({ handleSubmit, setInstructionInput })
+  - InstructionForm({ handleSubmit, setInstructionInput })
