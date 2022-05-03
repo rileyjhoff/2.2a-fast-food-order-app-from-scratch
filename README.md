@@ -64,11 +64,11 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### Components
 
-- OrderDisplay({ orderName, instructions, foodId, sideId, drinkId })
+- OrderDisplay({ orderName, foodId, sideId, drinkId, instructions })
   - OrderImages({ foodId, sideId, drinkId })
   - InstructionsList({ instructions })
     - Instruction({ instruction })
-- OrderForm({ setOrderName, setFoodId, setSideId, setDrinkId })
+- OrderForm({ setOrderName, setFoodId, setSideId, setDrinkId, handleSubmit, setInstructionInput })
   - Dropdown({ dropdown, setId })
   - OrderNameInput({ setOrderName })
-  - InstructionsForm({ handleSubmit, setInstructions })
+  - InstructionsForm({ handleSubmit, setInstructionInput })
