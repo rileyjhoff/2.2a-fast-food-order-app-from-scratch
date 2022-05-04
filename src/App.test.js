@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders Order for text', () => {
   render(<App />);
-  const textElement = screen.getByText(/Order for/i);
+  const textElement = screen.getByText(/Order/i);
   expect(textElement).toBeInTheDocument();
 });
