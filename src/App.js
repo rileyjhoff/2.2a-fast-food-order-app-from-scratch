@@ -19,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+      <h2>Order for {orderName}</h2>
       <OrderDisplay
         orderName={orderName}
         foodId={foodId}
