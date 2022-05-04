@@ -36,6 +36,12 @@
   margin: 5px;
 }
 
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .dropdown-container {
   display: flex;
   justify-content: center;
@@ -52,4 +58,17 @@
 .dropdown select {
   margin-top: 8px;
   width: fit-content;
+}
+
+.order-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin: 15px 5px 5px;
+}
+
+.order-name input {
+  margin-top: 5px;
+  text-align: center;
 }
