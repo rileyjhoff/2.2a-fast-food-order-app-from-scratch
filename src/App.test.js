@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import OrderDisplay from './components/OrderDisplay';
 
 test('renders Order for text', () => {
-  render(<App />);
+  render(<OrderDisplay />);
   const textElement = screen.getByText(/Order for/i);
   expect(textElement).toBeInTheDocument();
 });
