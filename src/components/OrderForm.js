@@ -14,9 +14,11 @@ export default function OrderForm({
 }) {
   return (
     <div className="order-form">
-      <Dropdown dropdown="food" setId={setFoodId} />
-      <Dropdown dropdown="side" setId={setSideId} />
-      <Dropdown dropdown="drink" setId={setDrinkId} />
+      <div className="dropdown-container">
+        <Dropdown dropdown="food" setId={setFoodId} />
+        <Dropdown dropdown="side" setId={setSideId} />
+        <Dropdown dropdown="drink" setId={setDrinkId} />
+      </div>
       <OrderNameInput setOrderName={setOrderName} />
       <InstructionForm
         handleSubmit={handleSubmit}

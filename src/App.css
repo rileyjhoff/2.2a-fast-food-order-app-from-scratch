@@ -35,3 +35,19 @@
   align-items: center;
   margin: 5px;
 }
+
+.dropdown-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 5px;
+}
+
+.dropdown select {
+  margin-top: 5px;
+}
