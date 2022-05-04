@@ -20,13 +20,7 @@ function App() {
   return (
     <div className="App">
       <h2>Order for {orderName}</h2>
-      <OrderDisplay
-        orderName={orderName}
-        foodId={foodId}
-        sideId={sideId}
-        drinkId={drinkId}
-        instructions={instructions}
-      />
+      <OrderDisplay foodId={foodId} sideId={sideId} drinkId={drinkId} instructions={instructions} />
       <OrderForm
         setOrderName={setOrderName}
         setFoodId={setFoodId}
