@@ -65,7 +65,7 @@
   flex-direction: column;
   align-items: center;
   width: 250px;
-  margin: 40px 5px 20px;
+  margin: 35px 5px 20px;
 }
 
 .order-name input {
@@ -88,4 +88,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.order-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+h4 {
+  margin: 10px 0;
+}
+
+.instructions {
+  width: 520px;
+  margin-bottom: 15px
+}
+
+.instruction {
+  margin-bottom: 5px;
 }

@@ -4,7 +4,7 @@ import Instruction from './Instruction';
 export default function InstructionsList({ instructions }) {
   return (
     <div className="instructions">
-      <h5>Instructions:</h5>
+      <h4>Instructions:</h4>
       {instructions.map((instruction, i) => (
         <Instruction key={instruction + i} instruction={instruction} />
       ))}
